@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 3000;
 const token = process.env.BOT_TOKEN;
-const webhookUrl = //telegram-bot-guvs.onrender.com;
+const webhookUrl = telegram-bot-guvs.onrender.com;
 
 if (!token) {
   console.error('❌ BOT_TOKEN non trovato nelle variabili d\'ambiente');
